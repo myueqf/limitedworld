@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "old_world",
+  "version": "${version}",
+  "name": "LimitedWorld",
+  "description": "还原了Minecraft：基岩版的有限世界/旧世界模式捏～ \n Restored Minecraft: Bedrock Edition's Limited World/Old World Mode",
+  "authors": [
+    "myueqf",
+    "lanzhan5656"
+  ],
+  "contact": {},
+  "license": "GPL-2.0-only",
+  "icon": "assets/icon.png",
+  "environment": "*",
+  "accessWidener" : "xwx.accesswidener",
+  "entrypoints": {
+    "main": [
+      "io.github.myueqf.main"
+    ]
+  },
+  "mixins": [
+    "oldworld.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
